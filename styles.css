@@ -1,0 +1,36 @@
+.upper-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
+
+.upper-right a:first-child{
+    margin-right: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 50vh;   
+    text-align: center;  
+    padding: 20px;
+    
+
+}
+
+
+input[type="text"]{
+    border-radius: 24px;
+    padding: 5px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    margin: 0 auto;
+    width: auto;
+    background: #fff;
+ 
+}
+
+
