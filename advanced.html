@@ -3,11 +3,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Advanced Search</title>
+    <link rel="icon" href="static/favicon.ico">
     <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <div class="upper-right">
         <a href="index.html">Google search</a>
     </div>
+
+    
+    <h1>Google</h1>
+    
+
+    <!-- Title -->
+    <div class="px-5 py-4 border-bottom">
+        <h4 class="text-danger">Advanced Search</h4>
+    </div>
+    
+
+    <!-- Content -->
+    <div class="container p-0 mx-5">
+    <span>Find pages with...</span><br>
+    <form action="/search"  method="GET" name="f">
+        <!-- All these words -->
+        <div class="row mb-3">
+            <div class="col-sm-2">
+                <label for="as_q" class="f-13">all these words:</label>
+            </div>
+            <input type="text" name="as_q" class="col-sm-6" autocomplete="off">
+            <div class="col-sm-4 ps-3 f-10 text-secondary">
+                Type the important words: 
+                <span class="ms-2 f-10 font-monospace">tri-colour rat terrier</span>
+            </div>
+        </div>
+        <label>this exact word or phrase:</label>
+        <input value="" autofocus="autofocus" name="as_epq" type="text"><br>
+        <label>any of these words:</label>
+        <input value="" autofocus="autofocus" name="as_oq" type="text"><br>
+        <label>none of these words:</label>
+        <input value="" autofocus="autofocus" name="as_eq" type="text"><br>
+        <input value="Advanced Search" type="submit">
+    </form>
+    </div>
+
+   
+
+     
+
+     
+            
 </body>
 </html>
