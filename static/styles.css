@@ -12,25 +12,32 @@
 
 .center{
     display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center; /* Vertical centering */
+    flex-direction: column;
+    margin: 200px; 
+    align-items: center;
     height: 50vh;   
     text-align: center;  
     padding: 20px;
-    
-
 }
 
 
-input[type="text"]{
+
+.center input[type="text"]{
+    
     border-radius: 24px;
     padding: 5px;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     margin: 0 auto;
-    width: auto;
     background: #fff;
- 
+    width: 600px;
+    height: 40px;
 }
+
+
+.center .google-logo{
+    margin-bottom: 20px;
+}
+
 
 
