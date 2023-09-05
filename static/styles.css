@@ -15,9 +15,9 @@
     flex-direction: column;
     margin: 200px; 
     align-items: center;
-    height: 50vh;   
     text-align: center;  
-    padding: 20px;
+    padding: 15px;
+    border: 10px solid black;
 }
 
 
@@ -30,8 +30,8 @@
     box-shadow: none;
     margin: 0 auto;
     background: #fff;
-    width: 600px;
-    height: 40px;
+    width: 548px;
+    height: 44px;
 }
 
 
