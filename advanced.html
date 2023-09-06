@@ -23,28 +23,76 @@
     
 
     <!-- Content -->
-    <div class="container p-0 mx-5">
-    <span>Find pages with...</span><br>
-    <form action="/search"  method="GET" name="f">
-        <!-- All these words -->
-        <div class="row mb-3">
-            <div class="col-sm-2">
-                <label for="as_q" class="f-13">all these words:</label>
+    <div class="container p-0 m-5">
+         <!-- Headline -->
+         <div class="row">
+            <div class="col-2">
+                <h5>Find pages with...</h5>
+            </div> 
+            <div class="col-6"></div> 
+            <div class="col-4">
+                <h6 class="text-secondary" >To do this in the search box.</h6>
+            </div> 
+         </div>
+    
+        <form action="/search"  method="GET" name="f">
+            <!-- All these words -->
+            <div class="row">
+                <div class="col-2">
+                    <label for="as_q" class="f-13">all these words:</label>
+                </div>
+                <input type="text" name="as_q" class="col-6" autocomplete="off">
+                <div class="col-4 f-10 text-secondary">
+                    Type the important words: 
+                    <span>tri-colour rat terrier</span>
+                </div>
             </div>
-            <input type="text" name="as_q" class="col-sm-6" autocomplete="off">
-            <div class="col-sm-4 ps-3 f-10 text-secondary">
-                Type the important words: 
-                <span class="ms-2 f-10 font-monospace">tri-colour rat terrier</span>
+            <!-- This exact word or phrase -->
+            <div class="row">
+                <div class="col-2">
+                    <label for="as_epq" class="f-13">this exact word or phrase:</label>
+                </div>
+                <input class="col-6" value="" autofocus="autofocus" name="as_epq" type="text">
+                <div class="col-4 f-10 text-secondary">
+                    Put exact words in quotes: 
+                     <span>"rat terrier"</span>
+                </div>
             </div>
-        </div>
-        <label>this exact word or phrase:</label>
-        <input value="" autofocus="autofocus" name="as_epq" type="text"><br>
-        <label>any of these words:</label>
-        <input value="" autofocus="autofocus" name="as_oq" type="text"><br>
-        <label>none of these words:</label>
-        <input value="" autofocus="autofocus" name="as_eq" type="text"><br>
-        <input value="Advanced Search" type="submit">
-    </form>
+            <!-- Any of these words -->
+            <div class="row">
+                <div class="col-2">
+                    <label for="as_oq" class="f-13">any of these words:</label>
+                </div>
+                <input class="col-6" value="" autofocus="autofocus" name="as_oq" type="text">
+                <div class="col-4 f-10 text-secondary">
+                    Type OR between all the words you want:  
+                     <span>miniature OR standard</span>
+                </div>
+            </div>
+            <!-- None of these words -->
+            <div class="row">
+                <div class="col-2">
+                    <label for="as_eq" class="f-13">none of these words:</label>
+                </div>
+                <input class="col-6" value="" autofocus="autofocus" name="as_eq" type="text">
+                <div class="col-4 f-10 text-secondary">
+                    Put a minus sign just before words that you don't want:
+                     <span>-rodent, -"Jack Russell"</span>
+                </div>
+            </div>
+            <div class="row">
+                
+            </div>
+
+
+
+
+        
+            
+           
+
+            <input value="Advanced Search" type="submit">
+        </form>
     </div>
 
    
