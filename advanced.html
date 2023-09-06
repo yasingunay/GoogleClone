@@ -18,88 +18,79 @@
 
     <!-- Title -->
     <div class="px-5 py-4 border-bottom">
-        <h4 class="text-danger">Advanced Search</h4>
+        <h5 class="text-danger as">Advanced Search</h5>
     </div>
     
 
     <!-- Content -->
-    <div class="container p-0 m-5">
+    <div class="container p-0 m-5 border-bottom">
          <!-- Headline -->
          <div class="row">
             <div class="col-2">
-                <h5>Find pages with...</h5>
+                <h5 class="f-15">Find pages with...</h5>
             </div> 
             <div class="col-6"></div> 
-            <div class="col-4">
+            <div class="col-4 p-0">
                 <h6 class="text-secondary" >To do this in the search box.</h6>
             </div> 
          </div>
     
-        <form action="/search"  method="GET" name="f">
+        <form action="https://www.google.com/search">
             <!-- All these words -->
-            <div class="row">
+            <div class="row my-3">
                 <div class="col-2">
                     <label for="as_q" class="f-13">all these words:</label>
                 </div>
-                <input type="text" name="as_q" class="col-6" autocomplete="off">
-                <div class="col-4 f-10 text-secondary">
+                <input type="text" name="as_q" class="col-6" style="border: 1px solid #ccc" autocomplete="off">
+                <div class="col-4 f-11">
                     Type the important words: 
-                    <span>tri-colour rat terrier</span>
+                    <span class="span1">tri-colour rat terrier</span>
                 </div>
             </div>
             <!-- This exact word or phrase -->
-            <div class="row">
+            <div class="row my-3">
                 <div class="col-2">
                     <label for="as_epq" class="f-13">this exact word or phrase:</label>
                 </div>
-                <input class="col-6" value="" autofocus="autofocus" name="as_epq" type="text">
-                <div class="col-4 f-10 text-secondary">
+                <input class="col-6" value="" autofocus="autofocus" style="border: 1px solid #ccc" name="as_epq" type="text">
+                <div class="col-4 f-11">
                     Put exact words in quotes: 
-                     <span>"rat terrier"</span>
+                     <span class="span1">"rat terrier"</span>
                 </div>
             </div>
             <!-- Any of these words -->
-            <div class="row">
+            <div class="row my-3">
                 <div class="col-2">
                     <label for="as_oq" class="f-13">any of these words:</label>
                 </div>
-                <input class="col-6" value="" autofocus="autofocus" name="as_oq" type="text">
-                <div class="col-4 f-10 text-secondary">
+                <input class="col-6" value="" autofocus="autofocus" style="border: 1px solid #ccc" name="as_oq" type="text">
+                <div class="col-4 f-11">
                     Type OR between all the words you want:  
-                     <span>miniature OR standard</span>
+                     <span class="span1">miniature OR standard</span>
                 </div>
             </div>
             <!-- None of these words -->
-            <div class="row">
+            <div class="row my-3">
                 <div class="col-2">
                     <label for="as_eq" class="f-13">none of these words:</label>
                 </div>
-                <input class="col-6" value="" autofocus="autofocus" name="as_eq" type="text">
-                <div class="col-4 f-10 text-secondary">
-                    Put a minus sign just before words that you don't want:
-                     <span>-rodent, -"Jack Russell"</span>
+                <input class="col-6" value="" autofocus="autofocus" style="border: 1px solid #ccc" name="as_eq" type="text">
+                <div class="col-4 f-11">
+                    Put a minus sign just before words that you don't want: <br>
+                     <span class="span1">-rodent, -"Jack Russell"</span>
                 </div>
             </div>
-            <div class="row">
-                
+            <!-- Advanced Search Button -->
+            <div class="row my-3">
+                <div class="col-2"></div>
+                <div class="col-6 px-0">
+                    <div class="d-flex flex-row-reverse">
+                        <input type="submit" class="btn btn-primary btn-sm" value="Advanced Search">
+                    </div>
+                </div>
+                <div class="col-4"></div>   
             </div>
-
-
-
-
-        
-            
-           
-
-            <input value="Advanced Search" type="submit">
         </form>
-    </div>
-
-   
-
-     
-
-     
-            
+    </div>         
 </body>
 </html>
