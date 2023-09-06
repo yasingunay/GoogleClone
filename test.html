@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Google</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            justify-content: center;
+            margin: 0;
+            height: 100vh;
+        }
+
+        h1 {
+            /* border: 1px solid red; */
+            max-width: 100%;
+            overflow-wrap: break-word;
+            min-width: 300px;
+        }
+        /* .input-text{
+            border: 10px solid orange;
+            width: 100%;
+            min-width: 300px;
+        } */
+        img{
+            /* border: 1px solid violet; */
+            width: 100%;
+            min-width: 300px;
+            max-width: 500px;
+        }
+
+        .center{
+            /* border: 1px solid black; */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-submit{
+            /* border: 1px solid blue; */
+            text-align: center;
+            margin-top: 20px;
+        }
+
+
+        @media (max-width: 750px){
+            .input-text{
+           
+            /* border: 5px solid goldenrod; */
+            width: 100%;
+            border-radius: 24px;
+            padding: 5px;
+            border: 1px solid #dfe1e5;
+            box-shadow: none;
+            margin: 0 auto;
+            background: #fff; 
+            
+            }
+        }
+        @media (min-width: 750px){
+            .input-text{
+               
+                /* border: 5px solid red; */
+                border-radius: 24px;
+                padding: 5px;
+                border: 1px solid #dfe1e5;
+                box-shadow: none;
+                margin: 0 auto;
+                background: #fff; 
+                width: 548px;
+                height: 44px;
+            }
+        }
+
+        .upper-right{
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 20px;
+        }
+
+
+        .upper-right a:first-child{
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="center">
+        <img src="static/google.png" alt="Google" style="max-width: 200px;">
+    </div>
+    <form action="https://www.google.com/search">
+        <div style="text-align: center">
+            <input class="input-text" type="text"  name="q" autocomplete="off" autofocus> 
+        </div>
+    
+        <div class="input-submit">
+            <input class="btn btn-light" name="btnK" type="submit" value="Google Search" aria-label="Google Search" role="button"  >
+            <input class="btn btn-light" name="btnI" type="submit" value="I'm Feeling Lucky" aria-label="Google Search" role="button"  >
+        </div>
+    </form>
+    <div class="upper-right">
+        <a href="image.html" >Image search</a>
+        <a href="advanced.html">Advanced search</a>
+    </div>
+    
+   
+</body>
+</html>
