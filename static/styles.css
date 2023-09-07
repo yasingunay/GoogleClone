@@ -111,3 +111,22 @@
 
 
 
+
+
+@media (max-width: 1056px) {
+    #elementToHide {
+        display: none;
+    }
+}
+
+
+.container .col-2{
+    /* border: 10px solid black; */
+    white-space: nowrap;
+
+}
+
+
+
+
+
