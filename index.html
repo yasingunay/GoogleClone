@@ -1,50 +1,32 @@
-<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Google</title>
-        <link rel="icon" href="static/favicon.ico">
-        <link rel="stylesheet" href="static/styles.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/favicon.ico">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Google</title>
+</head>
     <body>
-        <!-- <div class="center border 1px ">
-            <div class="image-container border 1px">
-                <img class="google-logo" src="static/logo.png" alt="Google" width="272" height="92">
-            </div>
-           
-            <form action="https://google.com/search">
-                <div class="text-box border 1px">
-                    <input type="text" name="q" autofocus><br><br>
-                </div>
-                
-                <input class="btn btn-light" name="btnK" type="submit" value="Google Search" aria-label="Google Search" role="button"  tabindex="0">
-                <input class="btn btn-light" name="btnI" type="submit" value="I'm Feeling Lucky" aria-label="Google Search" role="button"  tabindex="0">
-            </form>
-        </div> -->
-         <!-- Content -->
-    <div class="text-center border 1px">
-        <!-- Logo -->
-
-        <img class="google-logo" src="static/logo.png" alt="Google" width="272" height="92">
-        <!-- Search Field -->
-      
-            <form action="https://www.google.com/search">
+        <!-- Content -->
+        <div class="google-logo">
+            <!-- Logo -->
+                <img src="static/logo.png" alt="Google" style="max-width: 300px;">
+        </div>
+        <form action="https://www.google.com/search">
+            <div style="text-align: center">
                 <!-- Input -->
-                <input type="text" name="q" class="border" autocomplete="off" width="100px" autofocus>
-                <!-- Buttons -->
-                <div class="d-flex justify-content-center my-2 border 1px">
-                    <input type="submit" class="btn btn-light m-2 px-3 py-2 rounded" value="Google Search">
-                    <button class="btn btn-light m-2 px-3 py-2 rounded" name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
-                </div>
-            </form>
+                <input class="input-text" type="text"  name="q" autocomplete="off" autofocus> 
+            </div>
         
-    </div>
-</body>
+            <div class="input-submit">
+                <!-- Buttons -->
+                <input class="btn btn-light" name="btnK" type="submit" value="Google Search" aria-label="Google Search" role="button"  >
+                <input class="btn btn-light" name="btnI" type="submit" value="I'm Feeling Lucky" aria-label="Google Search" role="button"  >
+            </div>
+        </form>
         <div class="upper-right">
+            <!-- Top right links-->
             <a href="image.html" >Image search</a>
             <a href="advanced.html">Advanced search</a>
         </div>

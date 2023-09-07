@@ -1,3 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.google-logo{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-submit{
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 750px){
+    .input-text{
+   
+    /* border: 5px solid goldenrod; */
+    width: 100%;
+    border-radius: 24px;
+    padding: 5px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    margin: 0 auto;
+    background: #fff; 
+    
+    }
+}
+@media (min-width: 750px){
+    .input-text{
+       
+        /* border: 5px solid red; */
+        border-radius: 24px;
+        padding: 5px;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        margin: 0 auto;
+        background: #fff; 
+        width: 548px;
+        height: 44px;
+    }
+}
+
+
 .upper-right{
     position: absolute;
     top: 0;
@@ -10,33 +62,6 @@
     margin-right: 10px;
 }
 
-.center{
-    display: flex;
-    flex-direction: column;
-    margin: 200px; 
-    align-items: center;
-    text-align: center;  
-    padding: 15px;
-}
-
-
-
-.center input[type="text"]{
-    
-    border-radius: 24px;
-    padding: 5px;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    margin: 0 auto;
-    background: #fff;
-    width: 548px;
-    height: 44px;
-}
-
-
-.center .google-logo{
-    margin-bottom: 20px;
-}
 
 .T8VaVe{
     margin-top: -40px;
@@ -46,27 +71,6 @@
     font: 16px/16px roboto-regular, arial, sans-serif;
     white-space: nowrap ;
 }
-
-
-
-
-
-
-
-.gy3Eif {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-    text-decoration: none;
-}
-
-
-
-
 
 
 .f-10{
@@ -88,7 +92,6 @@
 .f-15{
     font-size: 15px;
 }
-
 
 
 .span1{
