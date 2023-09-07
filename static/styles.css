@@ -30,6 +30,7 @@
     margin: 0 auto;
     background: #fff; 
     }
+
 }
 
 @media (min-width: 750px){
@@ -43,7 +44,6 @@
         background: #fff; 
         width: 548px;
         height: 44px;
-        width: 100%;
     }
 }
 
