@@ -130,3 +130,14 @@
 
 
 
+
+.container {
+    max-width: 100%; /* Ensures the container doesn't exceed the screen width */
+    padding: 10px;
+    margin: 0 auto; /* Centers the container */
+}
+
+
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
