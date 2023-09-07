@@ -13,7 +13,7 @@
 }
 
 .input-submit{
-    /* border: 1px solid blue; */
+  
     text-align: center;
     margin-top: 20px;
 }
@@ -21,8 +21,7 @@
 
 @media (max-width: 750px){
     .input-text{
-   
-    /* border: 5px solid goldenrod; */
+
     width: 100%;
     border-radius: 24px;
     padding: 5px;
@@ -36,7 +35,6 @@
 @media (min-width: 750px){
     .input-text{
        
-        /* border: 5px solid red; */
         border-radius: 24px;
         padding: 5px;
         border: 1px solid #dfe1e5;
@@ -45,6 +43,7 @@
         background: #fff; 
         width: 548px;
         height: 44px;
+        width: 100%;
     }
 }
 
